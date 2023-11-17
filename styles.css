@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://wallpapercave.com/wp/nTwzv3B.jpg);
+ }
+ 
+ .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+ }
+ 
+ .card {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 60vh;
+    width: calc(30vw - 40px);
+    position: relative;
+    color: gold;
+   
+    
+ }
+ 
+ .card p {
+    margin: 0;
+    font-size: 1.5em; /* حجم الخط */
+    transition: font-size 0.3s; /* تغيير حجم الخط بسلاسة */
+
+   
+ }
+ 
+ .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+ }
+ 
+ .card:hover p {
+    font-size: 2em; /* حجم الخط عند التحويل */
+    
+ }
+ 
+ .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* تطبيق زوايا مستديرة على الصورة */
+ }
+ 
